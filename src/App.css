@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f6fa;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #243b6b;
+  color: white;
+  padding: 20px;
+}
+
+.username {
+  margin: 10px 0;
+}
+
+.role {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.user-btn {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.alert {
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.actions input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+
+.filters button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.loan-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.loan-table th {
+  background: #2d6cdf;
+  color: white;
+  padding: 10px;
+}
+
+.loan-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.repaid {
+  color: blue;
+}
+
+.funded {
+  color: green;
+}
+
+.requested {
+  color: orange;
+}
+
+
+
+
+
+
+

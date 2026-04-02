@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: linear-gradient(180deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.user-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff20;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.user-btn:hover {
+  background: #ffffff40;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 25px;
+}
+
+/* ALERT */
+.alert {
+  background: #28a745;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+/* INPUT + BUTTON */
+.actions input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.actions button {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #2d6cdf;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #1e4bb8;
+}
+
+/* FILTER BUTTONS */
+.filters button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background: #cfcfcf;
+}
+
+/* TABLE */
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.loan-table th {
+  background: #2d6cdf;
+  color: white;
+  padding: 12px;
+}
+
+.loan-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* STATUS BADGES */
+.status {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.REPAID {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.FUNDED {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.status.REQUESTED {
+  background: #fff3cd;
+  color: #856404;
+}
+
